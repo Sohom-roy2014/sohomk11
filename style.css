@@ -201,5 +201,73 @@ body{
   line-height: 1.6;
   color: rgba(11,31,53,0.65);
 }
+.second-brain-section{
+  background: #ffffff;
+  padding: 90px 16px;
+}
+
+.second-brain-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+
+.second-brain-left img{
+  width: 100%;
+  max-width: 520px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.small-title{
+  color: #2e9e5b;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.second-brain-right h2{
+  margin: 12px 0 18px;
+  font-size: 44px;
+  font-weight: 800;
+  color: #0b1f35;
+  line-height: 1.15;
+}
+
+.second-brain-right p{
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(11,31,53,0.65);
+  max-width: 520px;
+}
+
+
+.second-brain-right ul{
+  margin-top: 22px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.second-brain-right li{
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 14px;
+  font-size: 15px;
+  color: #0b1f35;
+}
+
+.second-brain-right li::before{
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #2e9e5b;
+  font-weight: bold;
+}
 
 
