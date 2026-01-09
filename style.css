@@ -1,3 +1,46 @@
 body{
-    background-color: aquamarine;
+    
+}
+
+.navbar{
+  height:90px;
+  background:white;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 60px;
+  position:sticky;
+  top:0;
+}
+.logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.logo img{
+  width: 100px;;
+}
+.menu{
+  display:flex;
+  gap:40px;
+  align-items: center;
+  
+  justify-content: center;
+}
+
+.menu a{
+  text-decoration:none;
+  color:black;
+  font-size:16px;
+  
+  
+}
+.btn{
+  background:#3F8F62;
+  color:white;
+  padding:12px 22px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:bold;
 }
